@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import javax.imageio.ImageIO;
 
-// A basic java program that take path to an image as argument and prints it as ASCII art
+// A basic java program that takes path to an image and size as arguments and a prints it as ASCII art
 public class ImageToASCII {
 	public static void main(String[] args) {
 		BufferedImage image = null;
